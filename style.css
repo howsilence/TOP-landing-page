@@ -33,7 +33,6 @@
 .head {
     display: flex;
     flex-direction: row;
-    justify-content: center;
     align-items: center;
     flex-wrap: nowrap;
     justify-content: space-between;
@@ -41,12 +40,21 @@
 }
 .logo {
    display: flex;
-  
+   flex: 1;
+   justify-content:center;
+    align-self:center;
 }
 .links {
     display: flex;
+    flex: 1;
     margin: 20px;
-
+    gap: 20px;
+}
+.leftFirst {
+    flex:1;
+}
+.rightFirst {
+    flex: 1;
 }
 .pics {
     display: flex;
@@ -58,6 +66,7 @@
 }
 .quote {
     display: flex;
+    flex:1;
     flex-direction: row;
     justify-content: center;
     align-items: center;
@@ -68,4 +77,5 @@
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    flex:1;
 }
